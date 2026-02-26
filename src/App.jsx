@@ -1,3 +1,13 @@
+import { Text } from "./components/Text";
+
 export function App() {
-  return <h1>Hello world</h1>
+  return (
+    <>
+      <main>
+        <Text variant="muted">
+          Olá Mundo
+        </Text>
+      </main>
+    </>
+  )
 }
